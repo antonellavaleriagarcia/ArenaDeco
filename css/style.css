@@ -1,0 +1,60 @@
+.logo{
+    width: auto;
+    height: 80px;
+    display: inline-block;
+}
+.nav-item{
+    font-size: 23px;
+}
+.navbar {
+    div#navbarNav{
+        justify-content: flex-end;
+        font-size: 20px;
+    }
+    li.nav-item {
+        margin-right: 2rem!important;
+    }
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #837259;
+}
+.alto-carru{
+    height: 130vh;
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: lighter;
+    a{
+        text-decoration: none;
+        color: rgba(245, 245, 245, 0.473);
+        font-weight: bolder;
+    }
+    a:hover {
+        color: #6c757d;
+    }
+}
+.index{
+    height: 150px;
+    margin: 14px;
+    padding-top: 50px;
+
+}
+.quienes-somos{
+    background-image: url(../img/flor.jpg);
+}
+.quienes-somos:hover{
+    opacity: 0.7;
+}
+.como-comprar{
+    background-image: url(../img/love.jpg);
+}
+.como-comprar:hover{
+    opacity: 0.7;
+}
+.contacto{
+    background-image: url(../img/vela.jpg);
+}
+.contacto:hover{
+    opacity: 0.7;
+}
